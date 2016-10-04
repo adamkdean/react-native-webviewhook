@@ -1,0 +1,20 @@
+{
+  "name": "react-native-webviewhook",
+  "version": "0.1.0",
+  "description": "React Native WebView with client-side hook (iOS + Android)",
+  "main": "WebViewHook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamkdean/react-native-webviewhook.git"
+  },
+  "keywords": ["react", "react native", "react-native", "webview", "web", "web view", "hook"],
+  "author": "Adam K Dean <adamkdean@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamkdean/react-native-webviewhook/issues"
+  },
+  "homepage": "https://github.com/adamkdean/react-native-webviewhook#readme"
+}
