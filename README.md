@@ -1,5 +1,14 @@
 # react-native-webviewhook
+
 React Native WebView with client-side hook (iOS + Android)
+
+### Why?
+
+Sometimes you need to be able to callback to your react-native app from a web page. The solutions that currently exist for this are either broken on one of the platforms, bloated with features you don't need, or in the case of implementing this directly into the WebView component – [delayed for numerous reasons](https://github.com/facebook/react-native/pull/9762).
+
+I needed a simple WebView which allowed me to pass a string back to react-native via a hook.
+
+This is that component.
 
 ### Install
 
@@ -7,13 +16,13 @@ React Native WebView with client-side hook (iOS + Android)
 
 ### Usage
 
-Place this in your `index.ios.js` or `index.android.js`:
+Place this in your `index.ios.js` and/or `index.android.js`:
 
 ```js
 import React, { Component } from 'react'
 import { AppRegistry, View } from 'react-native'
 
-import WebViewHook from './WebViewHook'
+import WebViewHook from 'react-native-webviewhook'
 
 export default class App extends Component {
   constructor(props) {

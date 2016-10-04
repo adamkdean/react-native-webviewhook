@@ -1,6 +1,6 @@
 {
   "name": "react-native-webviewhook",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React Native WebView with client-side hook (iOS + Android)",
   "main": "WebViewHook.js",
   "scripts": {
