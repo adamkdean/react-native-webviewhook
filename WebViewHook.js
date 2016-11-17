@@ -32,6 +32,10 @@ class WebViewHook extends WebView {
   __onLoadingStart(e) {
     const hash = this._getHash(e.nativeEvent.url)
 
+    if (this.props.onLoadStart && typeof this.props.onLoadStart === 'function') {
+      this.props.onLoadStart(e.nativeEvent.url, this)
+    }
+
     if (hash.indexOf('_hook_') == 0) {
       const message = decodeURIComponent(hash)
       if (message && message.indexOf(';') > -1) {
